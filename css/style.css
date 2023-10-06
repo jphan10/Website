@@ -15,7 +15,7 @@
     
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-accent: #AAFDAA;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -287,10 +287,10 @@ header {
 /*  My services section  */
 
 .my-services {
-    background-color: var(--clr-dark);
+    background-color: rgba(30,30,30,0.4);
     background-image: url(../img/services-bg.jpg);
     background-size: cover;
-    /* background-blend-mode: multiply; */
+    background-blend-mode: multiply;
     color: var(--clr-light);
     text-align: center;
 }
